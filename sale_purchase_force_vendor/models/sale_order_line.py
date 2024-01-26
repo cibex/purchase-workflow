@@ -61,6 +61,7 @@ class SaleOrderLine(models.Model):
                             "company_id": self.company_id.id,
                         }
                     )
+
                 )
             res["supplierinfo_id"] = suppinfo
         return res
