@@ -30,7 +30,7 @@ addon | version | maintainers | summary
 [purchase_blanket_order](purchase_blanket_order/) | 16.0.2.1.0 |  | Purchase Blanket Orders
 [purchase_commercial_partner](purchase_commercial_partner/) | 16.0.1.0.0 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add stored related field 'Commercial Supplier' on POs
 [purchase_default_terms_conditions](purchase_default_terms_conditions/) | 16.0.1.0.3 |  | This module allows purchase default terms & conditions
-[purchase_delivery_split_date](purchase_delivery_split_date/) | 16.0.1.0.1 |  | Allows Purchase Order you confirm to generate one Incoming Shipment for each expected date indicated in the Purchase Order Lines
+[purchase_delivery_split_date](purchase_delivery_split_date/) | 16.0.1.0.2 |  | Allows Purchase Order you confirm to generate one Incoming Shipment for each expected date indicated in the Purchase Order Lines
 [purchase_deposit](purchase_deposit/) | 16.0.1.0.1 |  | Option to create deposit from purchase order
 [purchase_discount](purchase_discount/) | 16.0.1.2.0 |  | Purchase order lines with discounts
 [purchase_exception](purchase_exception/) | 16.0.1.0.1 |  | Custom exceptions on purchase order
@@ -72,10 +72,12 @@ addon | version | maintainers | summary
 [purchase_partner_selectable_option](purchase_partner_selectable_option/) | 16.0.1.0.3 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Purchase Partner Selectable Option
 [purchase_product_packaging_container_deposit](purchase_product_packaging_container_deposit/) | 16.0.1.0.0 |  | Purchase Product Packaging Container Deposit
 [purchase_reception_status](purchase_reception_status/) | 16.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add reception status on purchase orders
-[purchase_request](purchase_request/) | 16.0.1.0.4 |  | Use this module to have notification of requirements of materials and/or external services and keep track of such requirements.
+[purchase_reorder_control](purchase_reorder_control/) | 16.0.1.0.0 |  | Restrict reordering unpurchaseable product
+[purchase_request](purchase_request/) | 16.0.1.1.0 |  | Use this module to have notification of requirements of materials and/or external services and keep track of such requirements.
 [purchase_request_tier_validation](purchase_request_tier_validation/) | 16.0.1.0.0 |  | Extends the functionality of Purchase Requests to support a tier validation process.
 [purchase_request_type](purchase_request_type/) | 16.0.1.0.0 |  | Purchase Request Type
 [purchase_requisition_tier_validation](purchase_requisition_tier_validation/) | 16.0.1.0.0 |  | Extends the functionality of Purchase Agreements to support a tier validation process.
+[purchase_return](purchase_return/) | 16.0.1.0.0 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Manage return orders.
 [purchase_sale_link_by_origin](purchase_sale_link_by_origin/) | 16.0.1.0.0 |  | Link PO/SO by the PO's Origin in addition to the default behavior that only links them by their lines
 [purchase_security](purchase_security/) | 16.0.2.0.0 | [![pilarvargas-tecnativa](https://github.com/pilarvargas-tecnativa.png?size=30px)](https://github.com/pilarvargas-tecnativa) | See only your purchase orders
 [purchase_stock_packaging](purchase_stock_packaging/) | 16.0.1.0.0 | [![rousseldenis](https://github.com/rousseldenis.png?size=30px)](https://github.com/rousseldenis) | Allows to transmit the product packaging from the procurement values to the generated purchase order line
@@ -86,7 +88,7 @@ addon | version | maintainers | summary
 [purchase_warn_message](purchase_warn_message/) | 16.0.1.0.0 |  | Add a popup warning on purchase to ensure warning is populated
 [purchase_work_acceptance](purchase_work_acceptance/) | 16.0.1.0.0 | [![ps-tubtim](https://github.com/ps-tubtim.png?size=30px)](https://github.com/ps-tubtim) | Purchase Work Acceptance
 [sale_purchase_force_vendor](sale_purchase_force_vendor/) | 16.0.1.0.0 | [![victoralmau](https://github.com/victoralmau.png?size=30px)](https://github.com/victoralmau) | Sale Purchase Force Vendor
-[supplier_calendar](supplier_calendar/) | 16.0.1.0.0 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Supplier Calendar
+[supplier_calendar](supplier_calendar/) | 16.0.1.0.1 | [![LoisRForgeFlow](https://github.com/LoisRForgeFlow.png?size=30px)](https://github.com/LoisRForgeFlow) | Supplier Calendar
 
 [//]: # (end addons)
 
