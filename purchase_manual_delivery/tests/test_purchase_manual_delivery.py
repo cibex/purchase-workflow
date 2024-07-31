@@ -253,3 +253,47 @@ class TestPurchaseManualDelivery(TransactionCase):
         self.assertTrue(self.po1_line2.pending_to_receive)
         self.assertEqual(self.po1_line1.existing_qty, self.po1_line1.product_qty)
         self.assertEqual(self.po1_line2.existing_qty, 0)
+
+    def test_04_purchase_order_line_uom_po(self):
+        """
+        Confirm Purchase Order 1 with a differing product uom_po_id -> product_uom_dozen
+        """
+        self.product1.uom_po_id = self.env.ref("uom.product_uom_dozen")
+        self.po1_line1.product_uom = self.product1.uom_po_id
+        self.po1_line1.product_qty = 4
+        # 4 dozen = 48 units
+        self.po1.button_confirm_manual()
+        self.assertTrue(self.po1_line1.pending_to_receive)
+        self.assertTrue(self.po1_line2.pending_to_receive)
+        self.assertEqual(self.po1_line1.existing_qty, 0)
+        self.assertEqual(self.po1_line2.existing_qty, 0)
+        wizard = (
+            self.env["create.stock.picking.wizard"]
+            .with_context(
+                **{
+                    "active_model": "purchase.order",
+                    "active_id": self.po1.id,
+                    "active_ids": self.po1.ids,
+                }
+            )
+            .create({})
+        )
+        wizard.fill_lines(self.po1.order_line)
+        wizard.line_ids = wizard.line_ids.filtered(
+            lambda l: l.product_id == self.product1
+        )
+        wizard.create_stock_picking()
+        # check picking is created
+        self.assertTrue(
+            self.po1.picking_ids,
+            'Purchase Manual Delivery: picking \
+            should be created after "manual delivery" wizard call',
+        )
+        picking_id = self.po1.picking_ids[0]
+        self.assertEqual(len(picking_id.move_ids), 1)
+        # When creating the picking without the 'stock.propagate_uom' system parameter set the uom of the
+        # product should be used in the picking:
+        self.assertEqual(picking_id.move_ids[0].product_uom, self.product1.uom_id)
+        self.assertEqual(picking_id.move_ids[0].product_uom_qty, 48)
+        self.assertTrue(self.po1.pending_to_receive)
+        self.assertFalse(self.po1_line1.pending_to_receive)
