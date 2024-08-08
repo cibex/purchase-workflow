@@ -95,7 +95,7 @@ class PurchaseOrderLine(models.Model):
             line.existing_qty = total
             if (
                 float_compare(
-                    line.product_uom_qty,
+                    line.product_qty,
                     line.existing_qty,
                     precision_digits=precision_digits,
                 )
