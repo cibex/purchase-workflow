@@ -36,11 +36,12 @@ addon | version | maintainers | summary
 [purchase_date_planned_manual](purchase_date_planned_manual/) | 16.0.1.0.0 | [![lreficent](https://github.com/lreficent.png?size=30px)](https://github.com/lreficent) | This module makes the system to always respect the planned (or scheduled) date in PO lines.
 [purchase_default_terms_conditions](purchase_default_terms_conditions/) | 16.0.1.0.3 |  | This module allows purchase default terms & conditions
 [purchase_delivery_split_date](purchase_delivery_split_date/) | 16.0.1.0.4 |  | Allows Purchase Order you confirm to generate one Incoming Shipment for each expected date indicated in the Purchase Order Lines
-[purchase_deposit](purchase_deposit/) | 16.0.1.0.2 |  | Option to create deposit from purchase order
+[purchase_deposit](purchase_deposit/) | 16.0.1.1.0 |  | Option to create deposit from purchase order
 [purchase_discount](purchase_discount/) | 16.0.2.0.0 |  | Purchase order lines with discounts
 [purchase_exception](purchase_exception/) | 16.0.1.0.1 |  | Custom exceptions on purchase order
 [purchase_fop_shipping](purchase_fop_shipping/) | 16.0.1.0.1 |  | Purchase Free-Of-Payment shipping
 [purchase_force_invoiced](purchase_force_invoiced/) | 16.0.1.0.1 |  | Allows to force the billing status of the purchase order to "Invoiced"
+[purchase_force_invoiced_quantity](purchase_force_invoiced_quantity/) | 16.0.1.0.0 |  | Add manual invoice quantity in purchase order lines
 [purchase_invoice_method](purchase_invoice_method/) | 16.0.1.0.0 |  | Allow to force the invoice method of a purchase
 [purchase_invoice_plan](purchase_invoice_plan/) | 16.0.1.0.0 | [![kittiu](https://github.com/kittiu.png?size=30px)](https://github.com/kittiu) | Add to purchases order, ability to manage future invoice plan
 [purchase_landed_cost](purchase_landed_cost/) | 16.0.1.0.0 |  | Purchase cost distribution
@@ -88,7 +89,7 @@ addon | version | maintainers | summary
 [purchase_request_exception](purchase_request_exception/) | 16.0.1.0.0 |  | Custom exceptions on purchase request
 [purchase_request_tier_validation](purchase_request_tier_validation/) | 16.0.1.0.0 |  | Extends the functionality of Purchase Requests to support a tier validation process.
 [purchase_request_type](purchase_request_type/) | 16.0.1.0.0 |  | Purchase Request Type
-[purchase_requisition_tier_validation](purchase_requisition_tier_validation/) | 16.0.1.0.0 |  | Extends the functionality of Purchase Agreements to support a tier validation process.
+[purchase_requisition_tier_validation](purchase_requisition_tier_validation/) | 16.0.1.0.1 |  | Extends the functionality of Purchase Agreements to support a tier validation process.
 [purchase_return](purchase_return/) | 16.0.1.0.1 | [![JordiBForgeFlow](https://github.com/JordiBForgeFlow.png?size=30px)](https://github.com/JordiBForgeFlow) | Manage return orders.
 [purchase_sale_link_by_origin](purchase_sale_link_by_origin/) | 16.0.1.0.0 |  | Link PO/SO by the PO's Origin in addition to the default behavior that only links them by their lines
 [purchase_security](purchase_security/) | 16.0.2.0.1 | [![pilarvargas-tecnativa](https://github.com/pilarvargas-tecnativa.png?size=30px)](https://github.com/pilarvargas-tecnativa) | See only your purchase orders
@@ -97,7 +98,7 @@ addon | version | maintainers | summary
 [purchase_stock_price_unit_sync](purchase_stock_price_unit_sync/) | 16.0.1.0.1 |  | Update cost price in stock moves already done
 [purchase_tag](purchase_tag/) | 16.0.1.1.0 |  | Allows to add multiple tags to purchase orders
 [purchase_tier_validation](purchase_tier_validation/) | 16.0.1.1.0 |  | Extends the functionality of Purchase Orders to support a tier validation process.
-[purchase_transport_mode](purchase_transport_mode/) | 16.0.1.0.0 |  | Purchase expection based on constraints
+[purchase_transport_mode](purchase_transport_mode/) | 16.0.1.1.0 |  | Purchase expection based on constraints
 [purchase_triple_discount](purchase_triple_discount/) | 16.0.2.0.0 |  | Manage triple discount on purchase order lines
 [purchase_vendor_promotion](purchase_vendor_promotion/) | 16.0.1.0.0 |  | Purchase Vendor Promotion
 [purchase_warn_message](purchase_warn_message/) | 16.0.1.0.0 |  | Add a popup warning on purchase to ensure warning is populated
