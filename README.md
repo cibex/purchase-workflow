@@ -37,7 +37,7 @@ addon | version | maintainers | summary
 [purchase_default_terms_conditions](purchase_default_terms_conditions/) | 16.0.1.0.3 |  | This module allows purchase default terms & conditions
 [purchase_delivery_split_date](purchase_delivery_split_date/) | 16.0.1.0.4 |  | Allows Purchase Order you confirm to generate one Incoming Shipment for each expected date indicated in the Purchase Order Lines
 [purchase_deposit](purchase_deposit/) | 16.0.1.1.0 |  | Option to create deposit from purchase order
-[purchase_discount](purchase_discount/) | 16.0.2.0.0 |  | Purchase order lines with discounts
+[purchase_discount](purchase_discount/) | 16.0.2.0.1 |  | Purchase order lines with discounts
 [purchase_exception](purchase_exception/) | 16.0.1.0.1 |  | Custom exceptions on purchase order
 [purchase_fop_shipping](purchase_fop_shipping/) | 16.0.1.0.1 |  | Purchase Free-Of-Payment shipping
 [purchase_force_invoiced](purchase_force_invoiced/) | 16.0.1.0.1 |  | Allows to force the billing status of the purchase order to "Invoiced"
@@ -85,7 +85,7 @@ addon | version | maintainers | summary
 [purchase_quick](purchase_quick/) | 16.0.1.0.0 | [![legalsylvain](https://github.com/legalsylvain.png?size=30px)](https://github.com/legalsylvain) | Quick Purchase order
 [purchase_reception_status](purchase_reception_status/) | 16.0.1.0.1 | [![alexis-via](https://github.com/alexis-via.png?size=30px)](https://github.com/alexis-via) | Add reception status on purchase orders
 [purchase_reorder_control](purchase_reorder_control/) | 16.0.1.0.0 |  | Restrict reordering unpurchaseable product
-[purchase_request](purchase_request/) | 16.0.2.0.2 |  | Use this module to have notification of requirements of materials and/or external services and keep track of such requirements.
+[purchase_request](purchase_request/) | 16.0.2.0.3 |  | Use this module to have notification of requirements of materials and/or external services and keep track of such requirements.
 [purchase_request_department](purchase_request_department/) | 16.0.1.0.0 |  | Purchase Request Department
 [purchase_request_exception](purchase_request_exception/) | 16.0.1.0.0 |  | Custom exceptions on purchase request
 [purchase_request_tier_validation](purchase_request_tier_validation/) | 16.0.1.0.0 |  | Extends the functionality of Purchase Requests to support a tier validation process.
