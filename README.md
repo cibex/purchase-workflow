@@ -27,6 +27,7 @@ addon | version | maintainers | summary
 [product_supplier_code_purchase](product_supplier_code_purchase/) | 16.0.1.0.0 |  | This module adds to the purchase order line the supplier code defined in the product.
 [product_supplierinfo_purchase_contact](product_supplierinfo_purchase_contact/) | 16.0.1.0.0 |  | Add Purchase Contact in product supplier info
 [product_supplierinfo_qty_multiplier](product_supplierinfo_qty_multiplier/) | 16.0.1.0.0 | <a href='https://github.com/victoralmau'><img src='https://github.com/victoralmau.png' width='32' height='32' style='border-radius:50%;' alt='victoralmau'/></a> <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Product supplierinfo qty multiplier
+[product_supplierinfo_security](product_supplierinfo_security/) | 16.0.1.0.0 | <a href='https://github.com/chienandalu'><img src='https://github.com/chienandalu.png' width='32' height='32' style='border-radius:50%;' alt='chienandalu'/></a> <a href='https://github.com/rafaelbn'><img src='https://github.com/rafaelbn.png' width='32' height='32' style='border-radius:50%;' alt='rafaelbn'/></a> | Restricts access to supplier information on products.
 [product_supplierinfo_update_price](product_supplierinfo_update_price/) | 16.0.1.0.0 |  | Updates the product's vendor price with the price set in a purchase order.
 [purchase_advance_payment](purchase_advance_payment/) | 16.0.1.2.1 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Allow to add advance payments on purchase orders
 [purchase_all_shipments](purchase_all_shipments/) | 16.0.1.0.0 |  | Purchase All Shipments
@@ -38,7 +39,7 @@ addon | version | maintainers | summary
 [purchase_default_terms_conditions](purchase_default_terms_conditions/) | 16.0.1.0.3 |  | This module allows purchase default terms & conditions
 [purchase_delivery_split_date](purchase_delivery_split_date/) | 16.0.1.0.4 |  | Allows Purchase Order you confirm to generate one Incoming Shipment for each expected date indicated in the Purchase Order Lines
 [purchase_deposit](purchase_deposit/) | 16.0.1.1.0 |  | Option to create deposit from purchase order
-[purchase_discount](purchase_discount/) | 16.0.2.0.2 |  | Purchase order lines with discounts
+[purchase_discount](purchase_discount/) | 16.0.2.0.3 |  | Purchase order lines with discounts
 [purchase_exception](purchase_exception/) | 16.0.1.0.1 |  | Custom exceptions on purchase order
 [purchase_fop_shipping](purchase_fop_shipping/) | 16.0.1.0.1 |  | Purchase Free-Of-Payment shipping
 [purchase_force_invoiced](purchase_force_invoiced/) | 16.0.1.0.2 |  | Allows to force the billing status of the purchase order to "Invoiced"
@@ -47,11 +48,11 @@ addon | version | maintainers | summary
 [purchase_invoice_new_picking_line](purchase_invoice_new_picking_line/) | 16.0.1.0.0 |  | When creating an invoice from a purchase order, this module also adds invoice lines for products that were in the order's pickings but not in the order itself.
 [purchase_invoice_plan](purchase_invoice_plan/) | 16.0.1.0.0 | <a href='https://github.com/kittiu'><img src='https://github.com/kittiu.png' width='32' height='32' style='border-radius:50%;' alt='kittiu'/></a> | Add to purchases order, ability to manage future invoice plan
 [purchase_landed_cost](purchase_landed_cost/) | 16.0.1.0.2 |  | Purchase cost distribution
-[purchase_last_price_info](purchase_last_price_info/) | 16.0.1.0.1 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Purchase Product Last Price Info
+[purchase_last_price_info](purchase_last_price_info/) | 16.0.1.0.2 | <a href='https://github.com/LoisRForgeFlow'><img src='https://github.com/LoisRForgeFlow.png' width='32' height='32' style='border-radius:50%;' alt='LoisRForgeFlow'/></a> | Purchase Product Last Price Info
 [purchase_line_procurement_group](purchase_line_procurement_group/) | 16.0.1.0.0 |  | Group purchase order line according to procurement group
 [purchase_location_by_line](purchase_location_by_line/) | 16.0.1.0.0 |  | Allows to define a specific destination location on each PO line
 [purchase_lot](purchase_lot/) | 16.0.2.0.0 | <a href='https://github.com/florian-dacosta'><img src='https://github.com/florian-dacosta.png' width='32' height='32' style='border-radius:50%;' alt='florian-dacosta'/></a> | Purchase Lot
-[purchase_manual_delivery](purchase_manual_delivery/) | 16.0.2.0.2 |  | Prevents pickings to be auto generated upon Purchase Order confirmation and adds the ability to manually generate them as the supplier confirms the different purchase order lines.
+[purchase_manual_delivery](purchase_manual_delivery/) | 16.0.2.0.3 |  | Prevents pickings to be auto generated upon Purchase Order confirmation and adds the ability to manually generate them as the supplier confirms the different purchase order lines.
 [purchase_merge](purchase_merge/) | 16.0.1.0.3 |  | Wizard to merge purchase with required conditions
 [purchase_minimum_amount](purchase_minimum_amount/) | 16.0.1.0.0 |  | Purchase Minimum Amount
 [purchase_no_rfq](purchase_no_rfq/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Purchase Order - No Request For Quotation
@@ -91,7 +92,7 @@ addon | version | maintainers | summary
 [purchase_quick](purchase_quick/) | 16.0.1.0.0 | <a href='https://github.com/legalsylvain'><img src='https://github.com/legalsylvain.png' width='32' height='32' style='border-radius:50%;' alt='legalsylvain'/></a> | Quick Purchase order
 [purchase_reception_status](purchase_reception_status/) | 16.0.1.0.1 | <a href='https://github.com/alexis-via'><img src='https://github.com/alexis-via.png' width='32' height='32' style='border-radius:50%;' alt='alexis-via'/></a> | Add reception status on purchase orders
 [purchase_reorder_control](purchase_reorder_control/) | 16.0.1.0.0 |  | Restrict reordering unpurchaseable product
-[purchase_request](purchase_request/) | 16.0.2.2.3 |  | Use this module to have notification of requirements of materials and/or external services and keep track of such requirements.
+[purchase_request](purchase_request/) | 16.0.2.4.0 |  | Use this module to have notification of requirements of materials and/or external services and keep track of such requirements.
 [purchase_request_department](purchase_request_department/) | 16.0.1.1.0 |  | Purchase Request Department
 [purchase_request_exception](purchase_request_exception/) | 16.0.1.0.0 |  | Custom exceptions on purchase request
 [purchase_request_tier_validation](purchase_request_tier_validation/) | 16.0.1.1.0 |  | Extends the functionality of Purchase Requests to support a tier validation process.
